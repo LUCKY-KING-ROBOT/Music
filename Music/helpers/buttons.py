@@ -133,7 +133,7 @@ class MakeButtons:
         else:
             buttons = [
                 [
-                    self.ikb("About Song", url=f"https://t.me/{username}?start=song_{video_id}"),
+                    self.ikb("🦋 ʀᴇᴍɪx ᴀʙᴏᴜᴛ ꜱᴏɴɢ 🦋", url=f"https://t.me/{username}?start=song_{video_id}"),
                 ],
                 [
                     self.ikb("❤️", callback_data=f"add_favorite|{video_id}"),
@@ -204,11 +204,11 @@ class MakeButtons:
     def source_markup(self):
         buttons = [
             [
-                self.ikb(text="Github ❤️", url="https://github.com"),
-                self.ikb(text="Repo 📦", url="https://github.com"),
+                self.ikb(text="Github ❤️", url="https://github.com/LUCKY-KING-ROBOT"),
+                self.ikb(text="Repo 📦", url="https://github.com/LUCKY-KING-ROBOT"),
             ],
             [
-                self.ikb(text="Under @DXinfo143 Network { 🇮🇳 }", url="https://t.me/DX_info"),
+                self.ikb(text="🦋 ʟᴜᴄᴋy ᴀʟʟ ʙᴏᴛ 🦋 { 🇮🇳 }", url="https://t.me/DXallbots"),
             ],
             [
                 self.ikb(text="Support 🎙️", url="https://t.me/DXinfo143"),
@@ -237,7 +237,7 @@ class MakeButtons:
                 self.ikb(text="Source 📦", callback_data="source"),
             ],
             [
-                self.ikb(text="Add Me To Group 👥", url=f"https://t.me/{username}?startgroup=true"),
+                self.ikb(text="🚀 ʀᴇᴍɪx ᴀᴅᴅ ᴍᴇ yᴏᴜ ᴄʜᴀᴛ ɢʀᴏᴜᴩ 🚀", url=f"https://t.me/{username}?startgroup=true"),
             ],
             [
                 self.ikb(text="🗑", callback_data="close"),
